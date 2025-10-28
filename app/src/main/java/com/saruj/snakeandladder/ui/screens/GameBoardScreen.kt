@@ -15,6 +15,15 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun GameBoardScreen() {
     val boardSize = 10
+
+    // Define 4 colors for alternating pattern
+    val boxColors = listOf(
+        Color(0xFFE3F2FD), // light blue
+        Color(0xFFFFF9C4), // light yellow
+        Color(0xFFC8E6C9), // light green
+        Color(0xFFFFCDD2)  // light pink
+    )
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -28,22 +37,23 @@ fun GameBoardScreen() {
         )
 
         Column {
-            for (row in boardSize downTo 1) {
+            for (row in boardSize downTo 1) { // start from top
+                val isEvenRow = row % 2 == 0
+                val start = (row - 1) * boardSize + 1
+                val end = row * boardSize
+                val numbers = if (isEvenRow) (start..end).toList().reversed() else (start..end).toList()
+
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
-                    val isEvenRow = row % 2 == 0
-                    val start = (row - 1) * boardSize + 1
-                    val end = row * boardSize
-                    val numbers = if (isEvenRow) (start..end).toList() else (start..end).toList().reversed()
-
-                    numbers.forEach { number ->
+                    numbers.forEachIndexed { index, number ->
+                        val colorIndex = (number - 1) % boxColors.size
                         Box(
                             modifier = Modifier
                                 .size(36.dp)
                                 .border(1.dp, Color.Gray)
-                                .background(if (number % 2 == 0) Color(0xFFE3F2FD) else Color(0xFFFFF9C4)),
+                                .background(boxColors[colorIndex]),
                             contentAlignment = Alignment.Center
                         ) {
                             Text(
