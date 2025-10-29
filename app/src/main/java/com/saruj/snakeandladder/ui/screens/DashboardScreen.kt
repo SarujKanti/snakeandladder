@@ -15,7 +15,6 @@ fun DashboardScreen(navController: NavController) {
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
-
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text(
                 text = "Main Dashboard",
