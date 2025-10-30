@@ -21,21 +21,18 @@ fun DashboardScreen(navController: NavController) {
                 fontSize = 28.sp,
                 modifier = Modifier.padding(bottom = 32.dp)
             )
-
             Button(
                 onClick = { navController.navigate("gameBoard") },
                 modifier = Modifier.padding(8.dp)
             ) {
                 Text("🎮 Start Game")
             }
-
             Button(
                 onClick = { /* TODO: Rules Screen */ },
                 modifier = Modifier.padding(8.dp)
             ) {
                 Text("📜 Rules")
             }
-
             Button(
                 onClick = { /* TODO: Exit or Settings */ },
                 modifier = Modifier.padding(8.dp)
