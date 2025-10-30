@@ -14,19 +14,18 @@ import kotlinx.coroutines.delay
 @Composable
 fun SplashScreen(navController: NavController) {
     LaunchedEffect(Unit) {
-        delay(5000) // 5 seconds
+        delay(3000) // 5 seconds
         navController.navigate("dashboard") {
             popUpTo("splash") { inclusive = true }
         }
     }
-
     Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
         Text(
             text = "🐍 Snake & Ladder 🎲",
-            fontSize = 32.sp,
+            fontSize = 42.sp,
             fontWeight = FontWeight.Bold
         )
     }
