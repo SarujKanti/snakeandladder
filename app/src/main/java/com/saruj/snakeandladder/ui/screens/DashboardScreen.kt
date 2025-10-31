@@ -33,6 +33,7 @@ fun DashboardScreen(navController: NavController) {
             ) {
                 Text("📜 Rules")
             }
+
             Button(
                 onClick = { /* TODO: Exit or Settings */ },
                 modifier = Modifier.padding(8.dp)
