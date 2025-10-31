@@ -19,10 +19,12 @@ fun SplashScreen(navController: NavController) {
             popUpTo("splash") { inclusive = true }
         }
     }
+
     Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
-    ) {
+    )
+    {
         Text(
             text = "🐍 Snake & Ladder 🎲",
             fontSize = 42.sp,
