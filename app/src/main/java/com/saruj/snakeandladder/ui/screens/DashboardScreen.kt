@@ -37,7 +37,8 @@ fun DashboardScreen(navController: NavController) {
             Button(
                 onClick = { /* TODO: Exit or Settings */ },
                 modifier = Modifier.padding(8.dp)
-            ) {
+            )
+            {
                 Text("⚙️ Exit / Settings")
             }
         }
