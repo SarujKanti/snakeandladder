@@ -41,6 +41,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         text = "SARUJ $name!",
 
         modifier = modifier
+
     )
 }
 
