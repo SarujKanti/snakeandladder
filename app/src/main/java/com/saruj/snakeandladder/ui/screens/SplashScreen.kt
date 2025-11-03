@@ -19,7 +19,6 @@ fun SplashScreen(navController: NavController) {
             popUpTo("splash") { inclusive = true }
         }
     }
-
     Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
