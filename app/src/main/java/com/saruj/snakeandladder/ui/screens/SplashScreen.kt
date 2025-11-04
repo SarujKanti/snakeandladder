@@ -25,7 +25,7 @@ fun SplashScreen(navController: NavController) {
     {
         Text(
             text = "🐍 Snake & Ladder 🎲",
-            fontSize = 42.sp,
+            fontSize = 40.sp,
             fontWeight = FontWeight.Bold
         )
     }
