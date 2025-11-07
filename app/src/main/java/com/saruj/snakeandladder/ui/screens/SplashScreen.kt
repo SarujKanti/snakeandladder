@@ -30,7 +30,6 @@ fun SplashScreen(navController: NavController) {
             fontSize = 40.sp,
 
             fontWeight = FontWeight.ExtraBold
-
         )
     }
 }
