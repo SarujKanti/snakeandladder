@@ -22,6 +22,7 @@ fun SplashScreen(navController: NavController) {
         modifier = Modifier.fillMaxSize(),
 
         contentAlignment = Alignment.Center
+
     )
     {
         Text(
