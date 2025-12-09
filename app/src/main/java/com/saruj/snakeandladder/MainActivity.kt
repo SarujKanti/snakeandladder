@@ -24,7 +24,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-
             val navController = rememberNavController()
             NavHost(navController = navController, startDestination = "splash") {
                 composable("splash") { SplashScreen(navController) }
