@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SnakeAndLadder</string>
+    <string name="android">Android</string>
 </resources>
