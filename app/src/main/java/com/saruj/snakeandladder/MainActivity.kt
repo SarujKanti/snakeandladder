@@ -30,7 +30,8 @@ class MainActivity : ComponentActivity() {
                 { SplashScreen(navController) }
                 composable("dashboard")
                 { DashboardScreen(navController) }
-                composable("gameBoard") { GameBoardScreen() }
+                composable("gameBoard")
+                { GameBoardScreen() }
             }
         }
     }
