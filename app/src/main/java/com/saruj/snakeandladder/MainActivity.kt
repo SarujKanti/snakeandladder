@@ -26,7 +26,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             val navController = rememberNavController()
             NavHost(navController = navController, startDestination = "splash") {
-                composable("splash") { SplashScreen(navController) }
+                composable("splash")
+                { SplashScreen(navController) }
                 composable("dashboard") { DashboardScreen(navController) }
                 composable("gameBoard") { GameBoardScreen() }
             }
@@ -42,6 +43,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 @Preview(showBackground = true)
+
 
 @Composable
 fun GreetingPreview() {
