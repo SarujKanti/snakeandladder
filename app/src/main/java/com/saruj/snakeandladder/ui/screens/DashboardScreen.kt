@@ -18,7 +18,7 @@ fun DashboardScreen(navController: NavController) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text(
                 text = "Main Dashboard",
-                fontSize = 28.sp,
+                fontSize = 30.sp,
                 modifier = Modifier.padding(bottom = 32.dp)
             )
             Button(
