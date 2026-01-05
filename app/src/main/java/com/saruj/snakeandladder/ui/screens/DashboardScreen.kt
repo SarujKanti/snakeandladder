@@ -30,6 +30,7 @@ fun DashboardScreen(navController: NavController) {
             }
             Button(
                 onClick = { /* TODO: Rules Screen */ },
+
                 modifier = Modifier.padding(10.dp)
             ) {
                 Text("📜 Rules")
