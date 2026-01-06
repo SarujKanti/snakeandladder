@@ -20,7 +20,6 @@ fun DashboardScreen(navController: NavController) {
                 text = "Main Dashboard",
 
                 fontSize = 30.sp,
-
                 modifier = Modifier.padding(bottom = 35.dp)
             )
             Button(
