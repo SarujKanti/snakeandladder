@@ -27,7 +27,7 @@ fun GameBoardScreen() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(16.dp),
+            .padding(17.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
