@@ -32,7 +32,7 @@ fun GameBoardScreen() {
     ) {
         Text(
             text = "Snake & Ladder Board",
-            fontSize = 24.sp,
+            fontSize = 25.sp,
             modifier = Modifier.padding(bottom = 16.dp)
         )
 
