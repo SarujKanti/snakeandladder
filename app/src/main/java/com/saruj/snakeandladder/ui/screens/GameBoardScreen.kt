@@ -36,6 +36,7 @@ fun GameBoardScreen() {
             modifier = Modifier.padding(bottom = 17.dp)
         )
 
+
         Column {
             for (row in boardSize downTo 1) { // start from top
                 val isEvenRow = row % 2 == 0
