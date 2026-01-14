@@ -31,7 +31,7 @@ fun GameBoardScreen() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "Snake & Ladder Board",
+            text = "Snake & Ladder Board", //game name
             fontSize = 25.sp,
             modifier = Modifier.padding(bottom = 17.dp)
         )
