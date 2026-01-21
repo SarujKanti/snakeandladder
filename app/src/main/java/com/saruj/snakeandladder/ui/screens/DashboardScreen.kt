@@ -26,7 +26,6 @@ fun DashboardScreen(navController: NavController) {
                 modifier = Modifier.padding(8.dp)
             )
             {
-
                 Text("🎮 Start Game")
             }
             Button(
