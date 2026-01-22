@@ -16,6 +16,7 @@ fun DashboardScreen(navController: NavController) {
 
         contentAlignment = Alignment.Center
     ) {
+        // Main Dashboard Content
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text(
                 text = "Main Dashboard",
