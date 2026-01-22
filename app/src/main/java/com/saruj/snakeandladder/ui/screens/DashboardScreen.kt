@@ -13,6 +13,7 @@ import androidx.navigation.NavController
 fun DashboardScreen(navController: NavController) {
     Box(
         modifier = Modifier.fillMaxSize(),
+
         contentAlignment = Alignment.Center
     ) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
