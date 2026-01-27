@@ -41,6 +41,7 @@ fun DashboardScreen(navController: NavController) {
                 modifier = Modifier.padding(8.dp)
             )
             {
+
                 Text("⚙️ Exit / Settings")
             }
         }
