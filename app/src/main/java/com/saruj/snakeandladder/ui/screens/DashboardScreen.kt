@@ -23,7 +23,6 @@ fun DashboardScreen(navController: NavController) {
                 fontSize = 30.sp,
                 modifier = Modifier.padding(bottom = 35.dp)
             )
-
             Button(
                 onClick = { navController.navigate("gameBoard") },
                 modifier = Modifier.padding(8.dp)
