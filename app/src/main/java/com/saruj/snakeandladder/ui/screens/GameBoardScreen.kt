@@ -15,7 +15,6 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun GameBoardScreen() {
     val boardSize = 10
-
     // Define 4 colors for alternating pattern
     val boxColors = listOf(
         Color(0xFFE3F2FD), // light blue
