@@ -22,7 +22,6 @@ fun GameBoardScreen() {
         Color(0xFFC8E6C9), // light green
         Color(0xFFFFCDD2)  // light pink
     )
-
     Column(
         modifier = Modifier
             .fillMaxSize()
