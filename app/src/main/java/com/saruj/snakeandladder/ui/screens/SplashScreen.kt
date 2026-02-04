@@ -23,7 +23,6 @@ fun SplashScreen(navController: NavController) {
         contentAlignment = Alignment.Center
     )
 
-
     {
         Text(
             text = "🐍 Snake & Ladder 🎲",
