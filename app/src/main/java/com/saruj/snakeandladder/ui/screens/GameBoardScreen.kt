@@ -44,6 +44,7 @@ fun GameBoardScreen() {
                 val numbers = if (isEvenRow) (start..end).toList().reversed() else (start..end).toList()
                 Row(
                     modifier = Modifier.fillMaxWidth(),
+
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
                     numbers.forEachIndexed { index, number ->
