@@ -40,6 +40,7 @@ fun GameBoardScreen() {
                 val isEvenRow = row % 2 == 0
                 val start = (row - 1) * boardSize + 1
                 val end = row * boardSize
+
                 val numbers = if (isEvenRow) (start..end).toList().reversed() else (start..end).toList()
                 Row(
                     modifier = Modifier.fillMaxWidth(),
