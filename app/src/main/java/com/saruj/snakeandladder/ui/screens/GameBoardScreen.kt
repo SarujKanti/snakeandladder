@@ -17,6 +17,7 @@ fun GameBoardScreen() {
     val boardSize = 10
     // Define 4 colors for alternating pattern
     val boxColors = listOf(
+
         Color(0xFFE3F2FD), // light blue
         Color(0xFFFFF9C4), // light yellow
         Color(0xFFC8E6C9), // light green
